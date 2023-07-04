@@ -1,6 +1,6 @@
 #include <iostream>
 #include <windows.h>
-int main() {
+int ShowMouseCoordinate(){
     while (true) {
         POINT p;
         if (GetCursorPos(&p)) {
@@ -8,5 +8,8 @@ int main() {
         }
         Sleep(10);
     }
+ }
+int main() {
+    ShowMouseCoordinate();
     return 0;
 }
