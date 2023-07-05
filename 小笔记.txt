@@ -1,0 +1,6 @@
+git命令
+git init初始化此目录文件夹为git管理
+git clone 链接（从库拷贝复制）
+git add .（将此目录内文件加入追踪）
+git commit -m "..."（准备提交，-m是备注内容）
+git push origin main（提交）
