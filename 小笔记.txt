@@ -1,6 +1,0 @@
-github命令
-git init初始化此目录文件夹为git管理
-git clone ...（拷贝复制）
-git add .（加入追踪）
-git commit -t "..."（准备提交）
-git push origin main（提交）
